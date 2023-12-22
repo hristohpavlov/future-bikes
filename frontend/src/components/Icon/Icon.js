@@ -18,6 +18,7 @@ import Twitter from './svg/twitter.svg';
 import Facebook from './svg/facebook.svg';
 import Instagram from './svg/instagram.svg';
 import TikTok from './svg/tiktok.svg';
+import CartIcon from './svg/cart-icon.svg';
 
 export const icons = {
   arrowLeft: ArrowLeft,
@@ -38,6 +39,7 @@ export const icons = {
   facebook: Facebook,
   instagram: Instagram,
   tiktok: TikTok,
+  cart: CartIcon,
 };
 
 export const Icon = ({ icon, className, ...rest }) => {

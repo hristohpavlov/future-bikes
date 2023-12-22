@@ -36,7 +36,7 @@
 
 .nav {
   position: fixed;
-   right: 264px;
+  right: 330px;
   display: flex;
     /* flex-direction: column; */
     flex: 1 1 auto;

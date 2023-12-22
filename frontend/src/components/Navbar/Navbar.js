@@ -166,6 +166,16 @@ export const Navbar = () => {
               </a>
             </RouterLink>
           ))}
+          <RouterLink href={"/cart"} scroll={false} key={'cart'}>
+              <a
+                data-navbar-item
+                className={styles.navIconLink}
+                aria-current={"cart"}
+                onClick={handleNavItemClick}
+              >
+                <Icon className={styles.navIcon} icon={'cart'} />
+              </a>
+            </RouterLink>
         </div>
         <NavbarIcons desktop />
       </nav>
